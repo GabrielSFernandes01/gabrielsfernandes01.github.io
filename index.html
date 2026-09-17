@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Sales Fernandes | Suporte Técnico & TI</title>
+    <style>
+        :root {
+            --primary-color: #0d1b2a;
+            --secondary-color: #1b263b;
+            --accent-color: #0077b6;
+            --text-color: #e0e1dd;
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --light-text: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 1px solid #334155;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+            color: var(--light-text);
+            font-size: 0.95rem;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .hero-tagline {
+            margin-top: 2rem;
+            font-style: italic;
+            color: var(--light-text);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: var(--card-bg);
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        section {
+            margin: 3rem 0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 0.3rem;
+        }
+
+        .about-text {
+            font-size: 1.05rem;
+            color: #cbd5e1;
+        }
+
+        .grid-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .card h3 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .card ul {
+            list-style-type: none;
+        }
+
+        .card ul li {
+            margin-bottom: 0.8rem;
+            position: relative;
+            padding-left: 1.2rem;
+            color: #cbd5e1;
+        }
+
+        .card ul li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .experience-item {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+
+        .experience-item h3 {
+            color: #ffffff;
+            font-size: 1.2rem;
+        }
+
+        .company {
+            color: var(--accent-color);
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+        }
+
+        .education-list {
+            list-style: none;
+        }
+
+        .education-list li {
+            background-color: var(--card-bg);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 0.8rem;
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            border-top: 1px solid #334155;
+            color: var(--light-text);
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .subtitle { font-size: 1rem; }
+            .contact-info { flex-direction: column; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Gabriel Sales Fernandes</h1>
+            <div class="subtitle">Acadêmico de Tecnologia da Informação | Suporte Técnico & Operações</div>
+            <div class="contact-info">
+                <span>📍 Paraibuna / SP</span>
+                <span>📱 (12) 99658-4488</span>
+                <span>📧 <a href="mailto:gblsales.gs@gmail.com">gblsales.gs@gmail.com</a></span>
+                <span>🚗 CNH Categoria B</span>
+            </div>
+            <div class="hero-tagline">
+                "Busco oportunidade de Estágio ou posição inicial (CLT) em Tecnologia da Informação, unindo a base analítica da Engenharia Civil ao aprendizado contínuo em TI para resolução de problemas e suporte ao usuário."
+            </div>
+        </header>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p class="about-text">
+                Graduando em Tecnologia da Informação pela UNIVESP e Bacharel em Engenharia Civil. Busco ingressar na área de TI atuando em Suporte Técnico (Help Desk / Service Desk), atendimento ao usuário e rotinas operacionais.
+            </p>
+            <br>
+            <p class="about-text">
+                Possuo conhecimento prático construído ao longo dos anos na manutenção de computadores, formatação de sistemas e solução de problemas de conectividade, aliado a uma sólida capacidade analítica, facilidade de trabalho em equipe e comunicação clara adquirida em experiências profissionais anteriores.
+            </p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Práticas</h2>
+            <div class="grid-cards">
+                <div class="card">
+                    <h3>🛠️ Manutenção & Hardware</h3>
+                    <ul>
+                        <li><strong>Sistemas Operacionais:</strong> Formatação e reinstalação de Windows, inclui configuração pós-instalação e otimização.</li>
+                        <li><strong>Manutenção de Desempenho:</strong> Diagnóstico e resolução de lentidões, travamentos e falhas de sistema.</li>
+                        <li><strong>Manutenção Física:</strong> Limpeza interna, troca e upgrade de componentes (Memória RAM, HD/SSD).</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🌐 Redes & Suporte</h3>
+                    <ul>
+                        <li><strong>Diagnóstico de Conectividade:</strong> Identificação e solução de instabilidades, lentidão e quedas de internet.</li>
+                        <li><strong>Periféricos e Roteadores:</strong> Instalação e configuração de impressoras, scanners, Wi-Fi e redes domésticas.</li>
+                        <li><strong>Atendimento Remoto:</strong> Suporte prévio e diagnóstico à distância para resolução de chamados de usuários.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>📊 Administrativo & Métodos</h3>
+                    <ul>
+                        <li><strong>Pacote Office:</strong> Uso de Word, Excel e PowerPoint aplicados à organização e rotinas administrativas.</li>
+                        <li><strong>Atendimento ao Público:</strong> Agilidade, boa comunicação e resolução de problemas sob pressão.</li>
+                        <li><strong>Raciocínio Lógico:</strong> Capacidade de isolamento analítico de falhas vinda da formação em Engenharia.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2>Trajetória Profissional</h2>
+            
+            <div class="experience-item">
+                <h3>Agente de Pedágio</h3>
+                <div class="company">Concessionária Rodovia dos Tamoios S.A.</div>
+                <ul>
+                    <li>Atendimento direto ao público em ambiente de alto volume, mantendo foco na agilidade, cordialidade e clareza na comunicação.</li>
+                    <li>Operação de sistemas computacionais de cobrança, conferência de caixa e gestão de situações de atendimento sob pressão.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Serviços Gerais</h3>
+                <div class="company">Vale Distribuidora de Produtos Agropecuários LTDA</div>
+                <ul>
+                    <li>Apoio às rotinas operacionais, organização de ambiente e suporte multifuncional aos setores da empresa.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Estagiário de Engenharia / Apoio Administrativo</h3>
+                <div class="company">Macro Engenharia & Prefeitura Municipal de Paraibuna</div>
+                <ul>
+                    <li>Apoio técnico e administrativo na organização de documentos, elaboração de relatórios e atendimento interno.</li>
+                    <li>Acompanhamento de rotinas e auxílio na organização de processos operacionais.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação Acadêmica & Cursos</h2>
+            <ul class="education-list">
+                <li><strong>Tecnologia da Informação</strong> — UNIVESP (Cursando, 1º Semestre)</li>
+                <li><strong>Engenharia Civil</strong> — Bacharelado Concluído</li>
+                <li><strong>Cursos de Aperfeiçoamento:</strong> Informática / Pacote Office, Gestão Industrial, Logística, Inglês Intermediário.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Gabriel Sales Fernandes © 2026 • Portfólio Profissional</p>
+        </footer>
+    </div>
+
+</body>
+</html>
